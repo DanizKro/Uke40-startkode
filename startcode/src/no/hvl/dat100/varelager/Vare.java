@@ -16,7 +16,6 @@ public class Vare {
 	public int getVarenr() {
 		
 		return varenr;
-		
 	}
 	
 	public void setVarenr(int varenr) {
@@ -59,6 +58,7 @@ public class Vare {
 	public boolean erBilligereEnn(Vare v) {
 		
 		boolean varePris = false;
+		
 		if (v.getPris() > this.pris) {
 			varePris = true;
 		} return varePris;
